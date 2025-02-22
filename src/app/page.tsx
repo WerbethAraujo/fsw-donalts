@@ -2,8 +2,8 @@ import { Button } from "@/components/ui/button";
 
 const Home = () => {
   return (
-    <div className="p-5 border border-blue-700 rounded-xl">
-      <h1>Home Page</h1>
+    <div className="rounded-xl border border-blue-700 bg-blue-700 p-5">
+      <h1 className="bg-red-700 p-2">Home Page</h1>
       <Button>Iniciar Projeto</Button>
     </div>
   );
